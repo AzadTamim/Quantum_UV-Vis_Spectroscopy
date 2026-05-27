@@ -1,0 +1,12 @@
+Quantum-UVVis-Spectroscopy/
+├── README.md              # Project overview and documentation
+├── requirements.txt       # List of Python packages (pip)
+├── environment.yml        # Conda environment setup file
+├── src/                   # Python scripts
+│   ├── main_lih.py        # The Master LiH script
+│   ├── utils_broadening.py # Functions for Lorentzian logic
+│   └── molecules_config.py # Coordinates for the 8 molecules
+├── results/               # Output data
+│   ├── tables/            # CSV files (LiH_Validated_Results.csv)
+│   └── plots/             # PNG files (LiH_Analysis.png)
+└── docs/                  # LaTeX source or detailed theory papers
